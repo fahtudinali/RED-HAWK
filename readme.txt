@@ -1,9 +1,12 @@
-Jalankan dengan printah 
-$apt update && upgrade
-$apt install python
-$apt install php
-$apt install git
-$git clone https://github.com/fahtudinali/RED-HAWK
-$cd RED-HAWK
+#Jalankan dengan printah 
+
+$pkg update && pkg upgrade
+$pkg install php
+$pkg install git
+$git clone 
+$cd RED_HAWK
 $ls
-$php REDHAWK.php
+$chmod +x rhawk.php
+$ls
+$php rhawk.php
+
